@@ -16,6 +16,3 @@ https://github.com/didipostman/GenomeSequencing
 
 I cant go further with it may be someone find it useful and continue.
 
-Conclusion
-The model can be embeded in nano Robots and you can cure illnesses and viruses you know RNA /
-DNA like covid 19.
