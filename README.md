@@ -56,7 +56,7 @@ The bacteria then use Cas9 or a similar enzyme to cut the DNA apart, which disab
 
  
 
-Here we didn’t see Karp Rabin but following the Github template https://github.com/didipostman/GenomeSequencing
+Here we didn’t see Karp Rabin but following the template source code 
 
 you will find a DNASequence_Processor class that implements itemProcessor and use Karp Rabin Algorithm.
 
@@ -66,5 +66,5 @@ Conclusion
 
 Spring Batch + Karp Rabin = how CRISPR Cas9 works is my IT theoretical model may be it could be interesting and useful for drugs discovery. The model is an idea that had been haunting me since 2012. I share it with you. I can’t go further with it, may be you find it useful interesting and continue developement. The model is under MIT License
 
-https://github.com/didipostman/GenomeSequencing
+
 
