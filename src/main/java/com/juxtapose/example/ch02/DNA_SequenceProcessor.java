@@ -14,7 +14,7 @@ import com.juxtapose.example.ch02.RabinKarp;
 public class DNA_SequenceProcessor implements
 		ItemProcessor<DNA_Sequence, DNA_Sequence> {
 			
-    private String dna_pattern  = "AATTCC";
+    private String dna_pattern  = "AATTCC"; //snippets of DNA from invading viruses
 	private String response ="*";
 	
 	public DNA_Sequence process(DNA_Sequence dnas) throws Exception {
