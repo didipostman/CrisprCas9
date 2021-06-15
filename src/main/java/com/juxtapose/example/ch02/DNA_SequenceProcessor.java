@@ -36,10 +36,10 @@ public class DNA_SequenceProcessor implements
 			
 	 					
 	if ( response.length() > 1)  
-		dnas.setPattern("Pattern match : " + pat); 
+		dnas.setPattern("1"); // Pattern match :
 	       	
 		else 
-			dnas.setPattern("No Pattern match : " + pat);
+			dnas.setPattern("0"); //No Pattern match : 
        
 		//System.out.println(dnas.toString());
 		return dnas;
