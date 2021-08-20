@@ -14,34 +14,29 @@ import com.juxtapose.example.ch02.RabinKarp;
 public class DNA_SequenceProcessor implements
 		ItemProcessor<DNA_Sequence, DNA_Sequence> {
 			
-    private String dna_pattern  = "AATTCC";
-	private String response ="*";
+        
+	private String[] snippetsVirusDna = {"TGCTGCT", "AATTCC", " GGAATAA"};  // the array can be more larger it is just an explanation
 	
 	public DNA_Sequence process(DNA_Sequence dnas) throws Exception {
 		
-	
-	String pat = dna_pattern ;
+	String strOffset ="";	
+		
+	for (int i=0; i<snippetsVirusDna.length; i++)  
+          {  
+  
+            
+	String pat = snippetsVirusDna[i] ;
 	
         String txt = dnas.getDna() ;
 
         RabinKarp searcher = new RabinKarp.getInstance(pat);
         int offset = searcher.search(txt);
-
+	
+	strOffset = strOffset +String.valueOf(offset);
+	
         
-        // from brute force search method 1
         
-        //dnas.setPattern(pat);
-        for (int i = 0; i < offset; i++)
-		 response = response + "*";
-			
-	 					
-	if ( response.length() > 1)  
-		dnas.setPattern("Pattern match : " + pat); 
-	       	
-		else 
-			dnas.setPattern("No Pattern match : " + pat);
-       
-		//System.out.println(dnas.toString());
-		return dnas;
 	}
+		dnas.setOffsets(strOffset);
+     } 
 }
