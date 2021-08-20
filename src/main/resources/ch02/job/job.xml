@@ -52,7 +52,7 @@
         <bean:property name="names">
             <bean:list>
                 <bean:value>dna</bean:value>
-				<bean:value>pattern</bean:value>
+		<bean:value>offset</bean:value>
                 
             </bean:list>
         </bean:property>
@@ -71,7 +71,7 @@
                     <bean:bean 
                         class="org.springframework.batch.item.file.transform.BeanWrapperFieldExtractor">
                         <bean:property name="names" 
-                             value="pattern,dna">
+                             value="dna,offset">
                         </bean:property>
                     </bean:bean>
                 </bean:property>
