@@ -11,7 +11,7 @@ package com.juxtapose.example.ch02;
 public class DNA_Sequence {
 	
 	private String dna = "";
-	private String pattern = "";
+	private String offsets = "";
 	
 	
 	
@@ -22,11 +22,11 @@ public class DNA_Sequence {
 		this.dna = dna;
 	}
 	
-	public String getPattern() {
-		return pattern;
+	public String getOffsets() {
+		return offsets;
 	}
-	public void setPattern(String pattern) {
-		this.pattern = pattern;
+	public void setOffsets(String offsets) {
+		this.offsets = offsets;
 	}
 	
 	/**
@@ -34,7 +34,7 @@ public class DNA_Sequence {
 	 */
 	public String toString(){
 		StringBuffer sb = new StringBuffer();
-		sb.append( "dna=" + getDna() +";pattern :" + getPattern() );
+		sb.append( "dna=" + getDna() +";pattern :" + getOffsets() );
 		return sb.toString();
 	}
 }
