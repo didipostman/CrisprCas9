@@ -19,7 +19,7 @@ public class DNA_SequenceProcessor implements
 	
 	public DNA_Sequence process(DNA_Sequence dnas) throws Exception {
 		
-	String strOffset ="";	
+	String CRISPR_ARRAYS ="";	
 		
 	for (int i=0; i<snippetsVirusDna.length; i++)  
           {  
@@ -32,11 +32,11 @@ public class DNA_SequenceProcessor implements
         RabinKarp searcher = new RabinKarp.getInstance(pat);
         int offset = searcher.search(txt);
 	
-	strOffset = strOffset +String.valueOf(offset);
+	CRISPR_ARRAYS = CRISPR_ARRAYS +String.valueOf(offset);
 	
         
         
 	}
-		dnas.setOffsets(strOffset);
+		dnas.setCrissprArrays(CRISPR_ARRAYS);
      } 
 }
