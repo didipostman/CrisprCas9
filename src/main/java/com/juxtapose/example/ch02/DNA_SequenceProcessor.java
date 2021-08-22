@@ -32,7 +32,7 @@ public class DNA_SequenceProcessor implements
         RabinKarp searcher = new RabinKarp.getInstance(pat);
         int offset = searcher.search(txt);
 	
-	CRISPR_ARRAYS = CRISPR_ARRAYS +String.valueOf(offset);
+	CRISPR_ARRAYS = CRISPR_ARRAYS +"(" +String.valueOf(offset) + "," + pat.length() + ")";
 	
         
         
