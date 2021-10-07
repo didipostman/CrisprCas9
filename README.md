@@ -7,7 +7,7 @@ Author: Wadï Mami
 email: didipostman77@gmail.com
 
 
-![alt text](https://external.ftun10-1.fna.fbcdn.net/safe_image.php?d=AQCXl9YSmOIjP7S-&w=500&h=261&url=https%3A%2F%2Fcamo.githubusercontent.com%2F5be13d5e423df76ff1715f40c0e3c1d51e79bc2f%2F68747470733a2f2f312e62702e626c6f6773706f742e636f6d2f2d4935587539366b7758784d2f584e4d345a704831335f492f414141414141414141414d2f682d6a5174665f735373414a6a4d7278565a643866776f4575542d59726b424241434c63424741732f73313630302f46425f494d475f313535373334363333353432392e6a7067&cfs=1&ext=jpg&_nc_cb=1&_nc_hash=AQBn0rdB1Ny-sNgD)
+![alt text](https://1.bp.blogspot.com/-Ww_6qH0oYac/YQjxHLTTZmI/AAAAAAAAANI/whIuFNUCeVEx85nRRT6V9fQSeO6jONnxwCLcBGAsYHQ/s16000/FB_IMG_1557346335429.jpg)
 
 Abstract
 
@@ -44,7 +44,7 @@ The Model
 
 the Architecture sequence diagram describing how Spring Batch[1] function and the dependency between Spring Batch Core and item reader, item Processor and item Writer + karp Rabin ( or any other pattern recognition algorithm) = How CRISPR Cas9 works see picture below
 
-![alt text](https://external.ftun10-1.fna.fbcdn.net/safe_image.php?d=AQCXl9YSmOIjP7S-&w=500&h=261&url=https%3A%2F%2Fcamo.githubusercontent.com%2F5be13d5e423df76ff1715f40c0e3c1d51e79bc2f%2F68747470733a2f2f312e62702e626c6f6773706f742e636f6d2f2d4935587539366b7758784d2f584e4d345a704831335f492f414141414141414141414d2f682d6a5174665f735373414a6a4d7278565a643866776f4575542d59726b424241434c63424741732f73313630302f46425f494d475f313535373334363333353432392e6a7067&cfs=1&ext=jpg&_nc_cb=1&_nc_hash=AQBn0rdB1Ny-sNgD)
+![alt text](https://1.bp.blogspot.com/-Ww_6qH0oYac/YQjxHLTTZmI/AAAAAAAAANI/whIuFNUCeVEx85nRRT6V9fQSeO6jONnxwCLcBGAsYHQ/s16000/FB_IMG_1557346335429.jpg)
 
 In fact The bacteria capture snippets of DNA from invading viruses and use them to create DNA segments known as CRISPR arrays. DNA = input file or database see sequence diagram above ( Spring Batch ---> ItemReader returns item processed by ItemProcessor which returns transformed items = DNA segments known as CRISPR arrays.
 
