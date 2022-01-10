@@ -123,8 +123,10 @@ public class RabinKarp {
      * @return the index of the first occurrence of the pattern string
      *         in the text string; n if no such match
      */
-    public int search(String txt) {
-        int n = txt.length(); 
+    public int[] search(String txt) {
+        int n = txt.length();
+        int k = 0;
+        int[] adress;
         if (n < m) return n;
         long txtHash = hash(txt, m); 
 
@@ -140,12 +142,16 @@ public class RabinKarp {
 
             // match
             int offset = i - m + 1;
-            if ((patHash == txtHash) && check(txt, offset))
-                return offset;
+            if ((patHash == txtHash) && check(txt, offset)){
+                adress[k] = offset;
+                k = k + 1 ;
+            }
+                //return offset;
         }
 
         // no match
-        return n;
+        //return n;
+        return adress;
     }
 
 
