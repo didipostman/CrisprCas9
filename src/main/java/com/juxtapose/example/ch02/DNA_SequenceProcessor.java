@@ -30,9 +30,12 @@ public class DNA_SequenceProcessor implements
         String txt = dnas.getDna() ;
 
         RabinKarp searcher = new RabinKarp.getInstance(pat);
-        int offset = searcher.search(txt);
+        
+		int[] offset = searcher.search(txt);
 	
-	CRISPR_ARRAYS = CRISPR_ARRAYS +"(" +String.valueOf(offset) + "," + pat.length() + ")";
+		for (int j=0; j< offset.length; j++)
+	
+		CRISPR_ARRAYS = CRISPR_ARRAYS +"(" +String.valueOf(offset[j]) + "," + pat.length() + ")";
 	
         
         
