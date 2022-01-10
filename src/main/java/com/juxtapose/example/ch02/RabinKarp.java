@@ -126,7 +126,7 @@ public class RabinKarp {
     public int[] search(String txt) {
         int n = txt.length();
         int k = 0;
-        int[] adress;
+        int[] adress = null;
         if (n < m) return n;
         long txtHash = hash(txt, m); 
 
