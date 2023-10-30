@@ -41,5 +41,6 @@ public class DNA_SequenceProcessor implements
         
 	}
 		dnas.setCrissprArrays(CRISPR_ARRAYS);
+		return dnas ;
      } 
 }
