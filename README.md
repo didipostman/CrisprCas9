@@ -54,7 +54,7 @@ It's important to remember that it's an analogy, not a scientific explanation. F
 
 ---------------------------------------------------
 
-I "Spring batch for sequencing DNA 
+"Spring batch for sequencing DNA 
 
 A computational model for DNA damage repair which could explain how CRISPR Cas9 Works" is
 
